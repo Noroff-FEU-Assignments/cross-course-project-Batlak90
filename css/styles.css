@@ -1,0 +1,138 @@
+header {
+    background-color: #1B203D;
+    color: #ffffff;
+    font-family: 'Play';
+    font-size: 30px; 
+    padding: 10px;  
+    width: 100%;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    gap: 75px;
+}
+
+.icons {
+    display: flex;
+    gap: 30px;
+}
+
+.logo img {
+    height: 100px;
+}
+
+a {
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active {
+ text-decoration: underline;
+}
+
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+
+/* top brands section*/
+
+.top-brands_icons {
+    display: flex;
+    gap: 100px;
+    margin: 0 auto;
+    margin-top: 25px;
+   
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.top-brands {
+    font-family: 'Teko';
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+    border-bottom: solid #707070 4px;
+  
+}
+
+/* games section*/
+
+.game-list {
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 150px;
+    
+}
+
+h2 {
+    font-family: 'Play';
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.game_img {
+    height: 400px;
+    border-radius: 20px;
+}
+
+.game-list_games {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.cta {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 7px;
+    width: 140px;
+    border:none;
+    background: #ef5b5b;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Play';
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+footer {
+    background-color: #797777;
+    color: #ffffff;
+    font-family: 'Teko';
+    font-size: 20px;
+    }
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.footer-content_icons {
+    display: flex;
+    gap: 40px;
+    font-size: 40px;
+}
+
