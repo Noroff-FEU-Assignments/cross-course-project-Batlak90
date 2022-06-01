@@ -1,3 +1,8 @@
+* {
+    margin:0; 
+    padding: 0;
+}
+
 header {
     background-color: #1B203D;
     color: #ffffff;
@@ -5,14 +10,12 @@ header {
     font-size: 30px; 
     padding: 10px;  
     width: 100%;
-
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     margin: 0 auto;
 }
 
@@ -21,47 +24,34 @@ ul {
     gap: 75px;
 }
 
+li {
+    list-style: none;
+    display: inline;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
 .icons {
     display: flex;
     gap: 30px;
 }
 
 .logo img {
-    height: 100px;
-}
-
-a {
-    color: #ffffff;
-}
-
-a {
-    text-decoration: none;
+    height: 50px;
 }
 
 .active {
  text-decoration: underline;
 }
 
-
-li {
-    list-style: none;
-    display: inline;
-}
-
-
 /* top brands section*/
 
-.top-brands_icons {
-    display: flex;
-    gap: 10px;
-    margin: 0 auto;
-    margin-top: 25px;
-   
-
-}
-
 h1 {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .top-brands {
@@ -70,23 +60,34 @@ h1 {
     flex-direction: column;
     text-align: center;
     margin-top: 40px;
-    border-bottom: solid #707070 4px;
-  
+    border-bottom: solid #707070 4px; 
+}
+
+.top-brands_icons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 25px;
 }
 
 /* games section*/
+h2 {
+    font-family: 'Play';
+    font-size: 18px;
+    text-transform: uppercase;
+}
 
 .game-list {
     margin-top: 70px;
     text-align: center;
-    margin-bottom: 150px;
-    
+    margin-bottom: 150px;   
 }
 
-h2 {
-    font-family: 'Play';
-    font-size: 30px;
-    text-transform: uppercase;
+.game-list_games {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
 }
 
 .game_img {
@@ -94,14 +95,9 @@ h2 {
     border-radius: 20px;
 }
 
-.game-list_games {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 80px;
-}
-
 .cta {
-    margin-top: 20px;
+    margin-top: 20px; 
+    margin-bottom: 50px;
     padding: 15px;
     border-radius: 7px;
     width: 140px;
@@ -114,12 +110,11 @@ h2 {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-
 footer {
     background-color: #797777;
     color: #ffffff;
     font-family: 'Teko';
-    font-size: 20px;
+    font-size: 15px;
     width: 100%;
     }
 
@@ -133,16 +128,32 @@ footer {
 
 .footer-content_icons {
     display: flex;
-    gap: 40px;
-    font-size: 40px;
+    gap: 10px;
+    font-size: 20px;
 }
 
 
 @media (min-width: 992px) {
   
 
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+    
+    .logo img {
+        height: 100px;
+    }
     .top-brands_icons {
         gap: 10px;
+        display: flex;
+        flex-direction: row;
        
     }
     .game_img {
@@ -150,5 +161,19 @@ footer {
         border-radius: 20px;
     }
     
+    .game-list_games {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 
+    footer {
+        font-size: 20px;
+    }
+
+    .footer-content_icons {
+        gap: 40px;
+        font-size: 40px;
+    }
+  
 }
