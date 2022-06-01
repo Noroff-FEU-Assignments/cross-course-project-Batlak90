@@ -53,7 +53,7 @@ li {
 
 .top-brands_icons {
     display: flex;
-    gap: 100px;
+    gap: 10px;
     margin: 0 auto;
     margin-top: 25px;
    
@@ -90,7 +90,7 @@ h2 {
 }
 
 .game_img {
-    height: 400px;
+    height: 200px;
     border-radius: 20px;
 }
 
@@ -120,6 +120,7 @@ footer {
     color: #ffffff;
     font-family: 'Teko';
     font-size: 20px;
+    width: 100%;
     }
 
 .footer-content {
@@ -136,3 +137,18 @@ footer {
     font-size: 40px;
 }
 
+
+@media (min-width: 992px) {
+  
+
+    .top-brands_icons {
+        gap: 10px;
+       
+    }
+    .game_img {
+        height: 300px;
+        border-radius: 20px;
+    }
+    
+
+}
