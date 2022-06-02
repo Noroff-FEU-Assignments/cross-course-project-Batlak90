@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-header {
+header{
     background-color: #1B203D;
     color: #ffffff;
     font-family: 'Play';
@@ -12,11 +12,16 @@ header {
     width: 100%;
 }
 
+
 nav {
-    display: flex;
+    display:none;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
     margin: 0 auto;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
 }
 
 ul {
@@ -26,7 +31,7 @@ ul {
 
 li {
     list-style: none;
-    display: inline;
+    display:block;
 }
 
 a {
@@ -177,3 +182,4 @@ footer {
     }
   
 }
+
