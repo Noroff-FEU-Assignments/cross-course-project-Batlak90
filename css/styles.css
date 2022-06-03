@@ -13,7 +13,8 @@ header{
 }
 
 
-nav {
+nav, 
+#menu-checkbox {
     display:none;
     justify-content: space-between;
     align-items:center;
