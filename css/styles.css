@@ -141,6 +141,14 @@ footer {
 
 @media (min-width: 992px) {
   
+nav {
+    display: block;
+    justify-content: space-between;   
+}
+  
+.hamburger-icon {
+    display: none;
+}
 
     h1 {
         font-size: 50px;
