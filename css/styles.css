@@ -142,53 +142,57 @@ footer {
 @media (min-width: 992px) {
   
 nav {
-    display: block;
-    justify-content: space-between;   
+    display: flex;
+    justify-content: space-between; 
+    align-items:center;
+    margin: 0 auto;
+
 }
-  
+
+
 .hamburger-icon {
     display: none;
 }
 
-    h1 {
-        font-size: 50px;
-    }
-    h2 {
-        font-size: 30px;
-    }
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 30px;
+}
 
-    a {
-        font-size: 20px;
-    }
+a {
+     font-size: 20px;
+}
     
-    .logo img {
-        height: 100px;
-    }
-    .top-brands_icons {
-        gap: 10px;
-        display: flex;
-        flex-direction: row;
+.logo img {
+    height: 100px;
+}
+.top-brands_icons {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
        
     }
-    .game_img {
-        height: 300px;
-        border-radius: 20px;
-    }
-    
-    .game-list_games {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
+.game_img {
+     height: 300px;
+    border-radius: 20px;
+ }
 
-    footer {
-        font-size: 20px;
-    }
+.game-list_games {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
-    .footer-content_icons {
-        gap: 40px;
-        font-size: 40px;
-    }
+ footer {
+     font-size: 20px;
+}
+
+.footer-content_icons {
+     gap: 40px;
+    font-size: 40px;
+}
   
 }
 
