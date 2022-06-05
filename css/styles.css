@@ -1,0 +1,201 @@
+* {
+    margin:0; 
+    padding: 0;
+}
+
+header{
+    background-color: #1B203D;
+    color: #ffffff;
+    font-family: 'Play';
+    font-size: 20px; 
+    padding: 10px;  
+    width: 100%;
+}
+
+nav, 
+#menu-checkbox {
+    display:none;
+    justify-content: space-between;
+    align-items:center;
+    margin: 0 auto;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+}
+
+ul {
+    display: flex;
+    gap: 75px;
+}
+
+li {
+    list-style: none;
+    display:block;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.icons {
+    display: flex;
+    gap: 30px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.active {
+ text-decoration: underline;
+}
+
+/* top brands section*/
+
+h1 {
+    font-size: 30px;
+}
+
+.top-brands {
+    font-family: 'Teko';
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+    border-bottom: solid #707070 4px; 
+}
+
+.top-brands_icons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+/* games section*/
+h2 {
+    font-family: 'Play';
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.game-list {
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 150px;   
+}
+
+.game-list_games {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.game_img {
+    height: 200px;
+    border-radius: 20px;
+}
+
+.cta {
+    margin-top: 20px; 
+    margin-bottom: 50px;
+    padding: 15px;
+    border-radius: 7px;
+    width: 140px;
+    border:none;
+    background: #ef5b5b;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Play';
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+footer {
+    background-color: #797777;
+    color: #ffffff;
+    font-family: 'Teko';
+    font-size: 15px;
+    width: 100%;
+    }
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.footer-content_icons {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+
+
+@media (min-width: 992px) {
+ 
+header {
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items:center;
+    margin: 0 auto;
+
+}
+
+
+.hamburger-icon {
+    display: none;
+}
+
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 30px;
+}
+
+a {
+     font-size: 20px;
+}
+    
+.logo img {
+    height: 100px;
+}
+.top-brands_icons {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+       
+    }
+.game_img {
+     height: 300px;
+    border-radius: 20px;
+ }
+
+.game-list_games {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ footer {
+     font-size: 20px;
+}
+
+.footer-content_icons {
+     gap: 40px;
+    font-size: 40px;
+}
+  
+}
+
