@@ -7,11 +7,10 @@ header{
     background-color: #1B203D;
     color: #ffffff;
     font-family: 'Play';
-    font-size: 30px; 
+    font-size: 20px; 
     padding: 10px;  
     width: 100%;
 }
-
 
 nav, 
 #menu-checkbox {
@@ -140,7 +139,11 @@ footer {
 
 
 @media (min-width: 992px) {
-  
+ 
+header {
+    font-size: 30px;
+}
+
 nav {
     display: flex;
     justify-content: space-between; 
